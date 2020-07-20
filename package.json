@@ -1,0 +1,28 @@
+{
+  "name": "bookmarkapi",
+  "version": "1.0.0",
+  "description": "A simple API to manage bookmarks",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idealadarsh/BookmarkAPI.git"
+  },
+  "keywords": [
+    "bookmark"
+  ],
+  "author": "Adarsh Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/idealadarsh/BookmarkAPI/issues"
+  },
+  "homepage": "https://github.com/idealadarsh/BookmarkAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.0",
+    "uuidv4": "^6.2.0"
+  }
+}
